@@ -1,0 +1,274 @@
+@serif: 'Corben', serif;
+@sans: 'Raleway', sans-serif;
+
+@black: #333;
+@highlight: #fa7;
+
+@lg-min: 1200px;
+@md-max: 1199px;
+@md-min: 990px;
+@sm-max: 989px;
+@sm-min: 768px;
+@xs-max: 767px;
+
+html {
+  font-size: 1vw;
+  color: @black;
+
+  @media (max-width: @sm-max) {
+    font-size: 1.5vw;
+  }
+  @media (max-width: @xs-max) {
+    font-size: 3vw;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 20px 40px;
+
+  @media (max-width: @sm-max) {
+    padding: 20px 30px;
+  }
+  @media (max-width: @xs-max) {
+    padding: 20px 15px;
+  }
+}
+
+a {
+  color: @highlight;
+}
+
+header {
+  h1 {
+    margin-top: 0;
+    font: normal 2rem @serif;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+    &:hover {
+      color: @highlight;
+    }
+  }
+  .tags {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0.6rem 0 0;
+    padding-left: 3rem;
+
+    @media (max-width: @xs-max) {
+      padding: 0;
+    }
+
+    .tag {
+      display: inline-block;
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+      &:hover {
+        background: @highlight;
+      }
+    }
+  }
+}
+
+h2 {
+  font: bold 6rem @serif;
+  margin-top: 20px;
+  margin-bottom: -0.1em;
+  line-height: 1;
+
+  &.smaller { font-size: 5rem; }
+
+  @media (max-width: @sm-max) {
+    font-size: 4.5rem;
+    &.smaller { font-size: 3.5rem; }
+  }
+  @media (max-width: @xs-max) {
+    font-size: 2.4rem;
+    &.smaller { font-size: 1.8rem; }
+  }
+
+  svg {
+    height: 1.4em;
+    width: 100%;
+    stroke: @black;
+    fill: rgba(0, 0, 0, 0);
+    stroke-dasharray: 550;
+    stroke-dashoffset: 550;
+  }
+
+  &.twolines {
+    font-size: 3rem;
+    @media (max-width: @sm-max) {
+      font-size: 2rem;
+    }
+    @media (max-width: @xs-max) {
+      font-size: 1rem;
+    }
+    svg {
+      height: 2.8em;
+    }
+  }
+}
+
+
+
+.project-list {
+  margin-top: 2rem;
+
+  a {
+    display: inline-block;
+    vertical-align: top;
+    width: 24%;
+    margin: 0.5%;
+    text-decoration: none;
+
+    @media (max-width: @sm-max) {
+      width: 32%;
+      margin-bottom: 1rem;
+    }
+    @media (max-width: @xs-max) {
+      width: 49%;
+    }
+
+    img {
+      display: block;
+      width: 100%;
+    }
+    .name {
+      float: left;
+      font: 1.5rem / 1.1 @serif;
+      margin: 0.3em 0.5em 0.5em 0;
+      color: @black;
+
+      @media (max-width: @sm-max) {
+        font-size: 1.3rem;
+      }
+      @media (max-width: @xs-max) {
+        font-size: 1.2rem;
+        margin: 0;
+      }
+    }
+    .year {
+      &:before {
+        content: '(';
+      }
+      &:after {
+        content: ')';
+      }
+      margin: 0.9em 0 0;
+
+      @media (max-width: @xs-max) {
+        clear: left;
+        margin: 0;
+        padding: 0.5em 0;
+      }
+    }
+    .tags {
+      clear: left;
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      .tag {
+        display: inline-block;
+        margin: 0 0.5em 0.3em 0;
+      }
+    }
+  }
+}
+
+.project {
+  h3 {
+    font: normal 2.2rem / 1 @serif;
+    font-style: italic;
+    margin: 30px 0 10px;
+
+    @media (max-width: @xs-max) {
+      font-size: 1.5rem;
+    }
+  }
+  .year {
+    float: left;
+    font: normal 1.5rem / 1 @serif;
+    color: #aaa;
+    margin: 0 1em;
+    &:before { content: '('; }
+    &:after { content: ')'; }
+  }
+  .tags {
+    margin: 0;
+    padding: 0;
+    .tag {
+      display: inline-block;
+      margin: 0 0.2em;
+    }
+  }
+  .images {
+    white-space: nowrap;
+    overflow-x: scroll;
+    padding: 20px 0;
+    margin-top: 40px;
+    border-top: 4px dashed #aaa;
+    border-bottom: 4px dashed #aaa;
+    img {
+      display: inline-block;
+      height: 250px;
+      margin: 0 5px;
+    }
+  }
+  .website {
+    p {
+      font: 2rem / 1 @serif;
+      margin: 0;
+
+      @media (max-width: @xs-max) {
+        font-size: 1.5rem;
+      }
+    }
+  }
+  .role {
+    margin: 25px 0;
+    p {
+      margin: 0;
+      font: 1.2rem / 1.4 @sans;
+    }
+  }
+  .details {
+    p {
+      font: 1.5rem / 1.2 @sans;
+      padding-left: 1em;
+      border-left: 2em solid #ddd;
+    }
+    .award {
+      font-size: 1.2rem;
+      font-style: italic;
+      font-weight: bold;
+      margin: 5px 0;
+    }
+  }
+  .video {
+    margin: 30px 0;
+    iframe {
+      max-width: 100%;
+    }
+  }
+}
+
+.tag {
+  background: lighten(desaturate(@highlight, 40%), 10%);
+  color: white;
+  padding: 0.2em 0.4em;
+  border-radius: 5px;
+  font: 1rem @sans;
+
+  @media (max-width: @xs-max) {
+    font-size: 0.8rem;
+    border-radius: 3px;
+  }
+}

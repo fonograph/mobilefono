@@ -1,0 +1,163 @@
+{
+  "projects": [
+    {
+      "name": "Genome",
+      "html": "genome",
+      "image": "img/gnome/oldphotograph.jpg",
+      "year": "2003",
+      "tags": ["digital","original"]
+    },
+    {
+      "name": "Electric Confessional",
+      "html": "electricconfessional",
+      "year": "2004",
+      "tags": []
+    },
+    {
+      "name": "Sandboxes",
+      "html": "sandboxes",
+      "image": "img/sandboxes/montage.jpg",
+      "year": "2005",
+      "tags": ["digital","original"]
+    },
+    {
+      "name": "Ghost Town",
+      "html": "ghost-town",
+      "image": "img/ghosttown/1.jpg",
+      "year": "2007",
+      "tags": ["digital","physical","game","original"]
+    },
+    {
+      "name": "Paparazzi",
+      "html": "electricconfessional",
+      "year": "2009",
+      "tags": []
+    },
+    {
+      "name": "Gentrification: The Game",
+      "html": "gentrification",
+      "image": "img/gentrification/1.jpg",
+      "year": "2010",
+      "tags": ["digital","physical","game","original"]
+    },
+    {
+      "name": "Wild Kratts",
+      "html": "wild-kratts",
+      "image": "img/wildkratts/1.jpg",
+      "year": "2010",
+      "tags": ["digital","game","service"]
+    },
+    {
+      "name": "Mont Trottoir",
+      "html": "mont-trottoir",
+      "image": "img/monttrottoir/Mont_trottoir.jpg",
+      "year": "2011",
+      "tags": ["physical","game","original"]
+    },
+    {
+      "name": "Gaming Privacy",
+      "html": "gaming-privacy",
+      "image": "img/gamingprivacy/1.jpg",
+      "year": "2012",
+      "tags": ["digital","physical","game","original"]
+    },
+    {
+      "name": "ZED.TO",
+      "html": "zed",
+      "image": "img/zed/1.jpg",
+      "year": "2012",
+      "tags": ["digital","physical","story","original"]
+    },
+    {
+      "name": "Product of Italy",
+      "html": "product-of-italy",
+      "image": "img/productofitaly/homepage1.jpg",
+      "year": "2012",
+      "tags": ["digital","service"]
+    },
+    {
+      "name": "Numb Chucks",
+      "html": "numbchucks",
+      "image": "img/numbchucks/1.jpg",
+      "year": "2013",
+      "tags": ["digital","game","service"]
+    },
+    {
+      "name": "Visitations",
+      "html": "visitations",
+      "image": "img/visitations/1.jpg",
+      "year": "2013",
+      "tags": ["physical","experiment","story","original"]
+    },
+    {
+      "name": "Jumpalot Junkbot",
+      "html": "jumpalot-junkbot",
+      "image": "img/jumpalot/1.jpg",
+      "year": "2013",
+      "tags": ["digital","game","original"]
+    },
+    {
+      "name": "Shadowfall",
+      "html": "shadowfall",
+      "image": "img/shadowfall/1.jpg",
+      "year": "2014",
+      "tags": ["digital", "physical","story", "service"]
+    },
+    {
+      "name": "Max and Shred",
+      "html": "max-and-shred",
+      "image": "img/maxandshred/1.jpg",
+      "year": "2014",
+      "tags": ["digital","game", "service"]
+    },
+    {
+      "name": "Rival Books of Aster",
+      "html": "rival-books",
+      "image": "img/rivalbooks/1.jpg",
+      "year": "2015",
+      "tags": ["digital","physical","game","original"]
+    },
+    {
+      "name": "Together Tales",
+      "html": "together-tales",
+      "image": "img/togethertales/1.jpg",
+      "year": "2015",
+      "tags": ["digital","physical","game","story"]
+    },
+    {
+      "name": "Invisiball",
+      "html": "invisiball",
+      "year": "2015",
+      "tags": ["digital","physical","original"]
+    },
+    {
+      "name": "Home to Win",
+      "html": "home-to-win",
+      "image": "img/hometowin/title.jpg",
+      "year": "2016",
+      "tags": ["digital","service"]
+    },
+    {
+       "name": "Games for Dorset Park",
+       "html": "dorset-park",
+       "image": "img/dorsetpark/title.jpg",
+       "year": "2016",
+       "tags": ["physical","game","service"]
+    },
+    {
+       "name": "Legion",
+       "html": "legion",
+       "image": "img/legion/title.jpg",
+       "year": "2016",
+       "tags": ["physical","digital","game","original"]
+    },
+    {
+       "name": "Morro & Jasp: Unscripted",
+       "html": "morro-and-jasp",
+       "image": "img/morroandjasp/title.jpg",
+       "year": "2017",
+       "tags": ["digital","game","story","original"]
+    }
+
+  ]
+}
