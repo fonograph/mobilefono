@@ -5,27 +5,28 @@
       "html": "genome",
       "image": "img/gnome/oldphotograph.jpg",
       "year": "2003",
-      "tags": ["digital","original"]
+      "tags": ["digital","fun"]
     },
     {
       "name": "Electric Confessional",
-      "html": "electricconfessional",
+      "html": "electric-confessional",
+      "image": "img/electricconfessional/title.jpg",
       "year": "2004",
-      "tags": []
+      "tags": ["digital","physical","fun"]
     },
     {
       "name": "Sandboxes",
       "html": "sandboxes",
       "image": "img/sandboxes/montage.jpg",
       "year": "2005",
-      "tags": ["digital","original"]
+      "tags": ["digital","work"]
     },
     {
       "name": "Ghost Town",
       "html": "ghost-town",
       "image": "img/ghosttown/1.jpg",
       "year": "2007",
-      "tags": ["digital","physical","game","original"]
+      "tags": ["digital","physical","fun"]
     },
     {
       "name": "Paparazzi",
@@ -38,125 +39,146 @@
       "html": "gentrification",
       "image": "img/gentrification/1.jpg",
       "year": "2010",
-      "tags": ["digital","physical","game","original"]
+      "tags": ["digital","physical","fun"]
     },
     {
       "name": "Wild Kratts",
       "html": "wild-kratts",
       "image": "img/wildkratts/1.jpg",
       "year": "2010",
-      "tags": ["digital","game","service"]
+      "tags": ["digital","work"]
+    },
+    {
+      "name": "Board Game Jam",
+      "html": "board-game-jam",
+      "image": "img/boardgamejam/6.jpg",
+      "year": "2011",
+      "tags": ["physical","fun"]
     },
     {
       "name": "Mont Trottoir",
       "html": "mont-trottoir",
       "image": "img/monttrottoir/Mont_trottoir.jpg",
       "year": "2011",
-      "tags": ["physical","game","original"]
+      "tags": ["physical","fun"]
     },
     {
       "name": "Gaming Privacy",
       "html": "gaming-privacy",
       "image": "img/gamingprivacy/1.jpg",
       "year": "2012",
-      "tags": ["digital","physical","game","original"]
+      "tags": ["digital","physical","work"]
     },
     {
       "name": "ZED.TO",
       "html": "zed",
       "image": "img/zed/1.jpg",
       "year": "2012",
-      "tags": ["digital","physical","story","original"]
+      "tags": ["digital","physical","fun"]
     },
     {
       "name": "Product of Italy",
       "html": "product-of-italy",
       "image": "img/productofitaly/homepage1.jpg",
       "year": "2012",
-      "tags": ["digital","service"]
+      "tags": ["digital","work"]
     },
     {
       "name": "Numb Chucks",
       "html": "numbchucks",
       "image": "img/numbchucks/1.jpg",
       "year": "2013",
-      "tags": ["digital","game","service"]
+      "tags": ["digital","work"]
     },
     {
       "name": "Visitations",
       "html": "visitations",
       "image": "img/visitations/1.jpg",
       "year": "2013",
-      "tags": ["physical","experiment","story","original"]
+      "tags": ["physical","work"]
     },
     {
       "name": "Jumpalot Junkbot",
       "html": "jumpalot-junkbot",
       "image": "img/jumpalot/1.jpg",
       "year": "2013",
-      "tags": ["digital","game","original"]
+      "tags": ["digital","fun"]
     },
     {
       "name": "Shadowfall",
       "html": "shadowfall",
       "image": "img/shadowfall/1.jpg",
       "year": "2014",
-      "tags": ["digital", "physical","story", "service"]
+      "tags": ["digital", "physical","work"]
     },
     {
       "name": "Max and Shred",
       "html": "max-and-shred",
       "image": "img/maxandshred/1.jpg",
       "year": "2014",
-      "tags": ["digital","game", "service"]
+      "tags": ["digital","work"]
     },
     {
       "name": "Rival Books of Aster",
       "html": "rival-books",
       "image": "img/rivalbooks/1.jpg",
       "year": "2015",
-      "tags": ["digital","physical","game","original"]
+      "tags": ["digital","physical","work"]
     },
     {
       "name": "Together Tales",
       "html": "together-tales",
       "image": "img/togethertales/1.jpg",
       "year": "2015",
-      "tags": ["digital","physical","game","story"]
+      "tags": ["digital","physical","work"]
     },
     {
       "name": "Invisiball",
       "html": "invisiball",
       "year": "2015",
-      "tags": ["digital","physical","original"]
+      "tags": ["digital"]
     },
     {
       "name": "Home to Win",
       "html": "home-to-win",
       "image": "img/hometowin/title.jpg",
       "year": "2016",
-      "tags": ["digital","service"]
+      "tags": ["digital","work"]
     },
     {
        "name": "Games for Dorset Park",
        "html": "dorset-park",
        "image": "img/dorsetpark/title.jpg",
        "year": "2016",
-       "tags": ["physical","game","service"]
+       "tags": ["physical","work"]
     },
     {
        "name": "Legion",
        "html": "legion",
        "image": "img/legion/title.jpg",
        "year": "2016",
-       "tags": ["physical","digital","game","original"]
+       "tags": ["physical","digital","fun"]
     },
     {
        "name": "Morro & Jasp: Unscripted",
        "html": "morro-and-jasp",
        "image": "img/morroandjasp/title.jpg",
        "year": "2017",
-       "tags": ["digital","game","story","original"]
+       "tags": ["digital","fun"]
+    },
+    {
+      "name": "EQ",
+      "html": "eq",
+      "image": "img/eq/title.jpg",
+      "year": "2018",
+      "tags": ["digital","work"]
+    },
+    {
+      "name": "ZAGMAX 3000",
+      "html": "zagmax",
+      "image": "img/zagmax/1.jpg",
+      "year": "2018",
+      "tags": ["physical","digital","fun"]
     }
 
   ]
